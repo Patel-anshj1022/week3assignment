@@ -17,3 +17,59 @@
         </ul>
       </nav>
     </header>
+
+    <main role="main">
+      <section id="services" aria-labelledby="services-heading">
+        <h2 id="services-heading">Services I offer</h2>
+        <div class="services-grid" role="group" aria-label="List of Services">
+            <div class="service-item" role="article" aria-labelledby="service1-heading">
+                <img src="images/webdesign.jpg" alt="Web Design Services" />
+                <h3 id="service1-heading">Web Design</h3>
+                <p>We create stunning and responsive websites tailored to your business needs.</p>
+            </div>
+            
+            <div class="service-item" role="article" aria-labelledby="service2-heading">
+                <img src="images/digitalmarketing.jpeg" alt="Digital Marketing Services" />
+                <h3 id="service2-heading">Digital Marketing</h3>
+                <p>Reach your audience effectively through targeted digital marketing strategies.</p>
+            </div>
+        </div>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Us</h2>
+        <form aria-labelledby="contact-form-heading">
+          <h3 id="contact-form-heading" class="visually-hidden">Contact Form</h3>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div class="footer-content" role="complementary">
+        <h3>About Me</h3>
+        <p>i am leading web design and digital marketing agency.</p>
+        <p><a href="#services">Learn more about our services</a></p>
+      </div>
+      <div class="footer-content" role="complementary">
+        <h3>Follow Me</h3>
+        <p><a href="https://instagram.com/_ansh1521_4/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+      </div>
+      <div class="footer-content" role="complementary">
+        <h3>Contact Information</h3>
+        <p>anshjpatel2205@gmail.com</p>
+        <p>Phone: +254782307090</p>
+      </div>
+    </footer>
+  </body>
+</html>
